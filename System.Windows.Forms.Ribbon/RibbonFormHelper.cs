@@ -348,7 +348,7 @@ namespace System.Windows.Forms
                     handled = true;
 
                     if(Ribbon != null && Ribbon.ActualBorderMode == RibbonWindowMode.NonClientAreaCustomDrawn)
-                        Form.Refresh();
+						this.Ribbon.Refresh();
                     #endregion
                 }
                 //else if ((m.Msg == WinApi.WM_SIZE) && Ribbon != null && Ribbon.ActualBorderMode == RibbonWindowMode.NonClientAreaGlass)
