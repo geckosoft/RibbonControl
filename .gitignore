@@ -1,0 +1,34 @@
+# Visual Studio crap
+Release
+bin
+obj
+*.ncb
+*.vcproj*
+*.suo
+*.user
+*.sln.cache
+
+
+#binary stuff
+/*.dll
+*.pdb
+*.mdb
+*.exe
+
+# backup files by various editors
+*~
+*.orig
+
+#monodevelop
+*.pidb
+*.userprefs
+
+# osx crap
+.DS_Store
+
+# more crap
+_ReSharper.*
+
+
+*.config
+# *.resources
